@@ -1,52 +1,52 @@
-Sensores Climáticos en Córdoba
+# Sensores Climáticos en Córdoba
 
 Este repositorio contiene datos simulados de sensores climáticos distribuidos en distintas zonas de la ciudad de Córdoba, Argentina. Cada sensor mide variables como la temperatura, la humedad y la presión atmosférica en un momento determinado.
 
-📌 Estructura del Repositorio
+## 📌 Estructura del Repositorio
 
 El repositorio contiene un archivo JSON con una estructura de datos organizada en forma de array de objetos, donde cada objeto representa un sensor con la siguiente información:
 
-id: Identificador único del sensor.
+* id: Identificador único del sensor.
 
-ubicacion: Nombre de la zona donde está ubicado el sensor.
+* ubicacion: Nombre de la zona donde está ubicado el sensor.
 
-latitud: Coordenada de latitud de la ubicación del sensor.
+* latitud: Coordenada de latitud de la ubicación del sensor.
 
-longitud: Coordenada de longitud de la ubicación del sensor.
+* longitud: Coordenada de longitud de la ubicación del sensor.
 
-fecha_hora: Fecha y hora de la medición.
+* fecha_hora: Fecha y hora de la medición.
 
-temperatura: Temperatura medida en grados Celsius.
+* temperatura: Temperatura medida en grados Celsius.
 
-humedad: Porcentaje de humedad relativa.
+* humedad: Porcentaje de humedad relativa.
 
-presion: Presión atmosférica en hPa (hectopascales).
+* presion: Presión atmosférica en hPa (hectopascales).
 
-📍 Ubicaciones de los Sensores
+## 📍 Ubicaciones de los Sensores
 
-Los sensores están distribuidos en diferentes barrios y zonas de Córdoba, incluyendo:
+* Los sensores están distribuidos en diferentes barrios y zonas de Córdoba, incluyendo:
 
-Centro
+* Centro
 
-Nueva Córdoba
+* Nueva Córdoba
 
-Alta Córdoba
+* Alta Córdoba
 
-Parque Sarmiento
+* Parque Sarmiento
 
-Ciudad Universitaria
+* Ciudad Universitaria
 
-Barrio Jardín
+* Barrio Jardín
 
-Villa Belgrano
+* Villa Belgrano
 
-San Vicente
+* San Vicente
 
-General Paz
+* General Paz
 
-Argüello, entre otros.
+* Argüello, entre otros.
 
-📂 Archivo JSON
+## 📂 Archivo JSON
 
 El archivo principal de datos es sensores.json, donde se almacenan los registros de medición de cada sensor en formato JSON.
 
